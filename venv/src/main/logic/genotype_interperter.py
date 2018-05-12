@@ -11,7 +11,6 @@ def get_all_weights(genotype) -> np.array:
     weights = []
     for weight_binary in weights_binary:
         weights.append(calculate_weight(weight_binary))
-    # print(weights)
     return np.array(weights)
 
 
